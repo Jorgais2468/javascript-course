@@ -1,0 +1,25 @@
+# This file helps maintain consistent coding styles between different editors and IDEs.
+
+# Set this as the root EditorConfig file
+root = true
+
+# Global settings for all file types
+[*]
+end_of_line = lf                # Use Unix-style line endings
+insert_final_newline = true     # Ensure file ends with a newline
+trim_trailing_whitespace = true # Remove any whitespace at the end of lines
+
+# Settings specific to HTML files
+[*.html]
+indent_style = space            # Use spaces for indentation
+indent_size = 2                 # Set indentation size to 2 spaces
+
+# Settings specific to CSS files
+[*.css]
+indent_style = space            # Use spaces for indentation
+indent_size = 2                 # Set indentation size to 2 spaces
+
+# Settings specific to JavaScript files
+[*.js]
+indent_style = space            # Use spaces for indentation
+indent_size = 2                 # Set indentation size to 2 spaces
